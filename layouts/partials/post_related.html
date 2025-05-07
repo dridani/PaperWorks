@@ -1,0 +1,13 @@
+{{ $related := first 5 (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+{{ with $related }}
+    <h2 class="post-related">{{- i18n "read-also" }}</h2>
+  <div class="related">
+    <ul>
+      {{ range . }}
+        <li>
+          <a href="{{ .RelPermalink }}" target="_blank">{{ .Title }}</a> <span class="related-date">（{{ .Date | time.Format "2006-01-02" }}）</span>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

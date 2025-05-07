@@ -6,12 +6,12 @@
 
 - id: read_time
   translation:
-    one : "1 menit"
+    one: "1 menit"
     other: "{{ .Count }} menit"
 
 - id: words
   translation:
-    one : "kata"
+    one: "kata"
     other: "{{ .Count }} kata"
 
 - id: toc
@@ -31,3 +31,6 @@
 
 - id: code_copied
   translation: "disalin!"
+
+- id: read-also
+  translation: "Read also"
