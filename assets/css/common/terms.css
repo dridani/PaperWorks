@@ -7,9 +7,14 @@
 .terms-tags a {
     display: block;
     padding: 3px 10px;
-    background: var(--tertiary);
+    background: var(--entry);
+    border: 1px solid var(--border);
     border-radius: 6px;
     transition: transform 0.1s;
+}
+
+.terms-tags a:hover{
+    background: var(--tertiary);
 }
 
 .terms-tags a:active {

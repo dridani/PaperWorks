@@ -27,11 +27,16 @@
 }
 
 .button {
-    background: var(--tertiary);
+    background: var(--entry);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
     margin: 8px;
     padding: 6px;
     transition: transform 0.1s;
+}
+
+.button:hover {
+    background: var(--tertiary);
 }
 
 .button-inner {
