@@ -1,4 +1,4 @@
-# PaperWork
+# PaperWorks
 
 A Hugo theme forked from [PaperMod](https://github.com/adityatelange/hugo-PaperMod), with some features and customizations added but still keeps simplicity of original theme.
 
@@ -6,7 +6,7 @@ A Hugo theme forked from [PaperMod](https://github.com/adityatelange/hugo-PaperM
 
 - Image Zoom
 - Read also
-- *Upcoming* Box Info
+- Box Info *Upcoming*
 
 ## Reference
 
